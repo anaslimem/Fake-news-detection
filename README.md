@@ -16,7 +16,7 @@ This project is a machine learning-based system designed to detect and classify 
 2. **Install required libraries:**
    pip install numpy pandas sklearn nltk gensim matplotlib gradio
    
-3. **Download necessary NLTK data: Open a Python shell and run the following commands:**
+3. **Download necessary NLTK data:**
      import nltk
     nltk.download('punkt')
     nltk.download('wordnet')
@@ -24,7 +24,8 @@ This project is a machine learning-based system designed to detect and classify 
 
 The dataset used in this project was sourced from Kaggle. It contains labeled news articles categorized as "Fake" or "Real."
 
-Dataset Name: Fake News Detection Datasets
+Dataset Name: Fake News Detection Datasets 
+
 Dataset Link: https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets?resource=download
 
    

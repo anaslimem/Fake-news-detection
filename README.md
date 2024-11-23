@@ -18,7 +18,8 @@ This project is a machine learning-based system designed to detect and classify 
    pip install numpy pandas sklearn nltk gensim matplotlib gradio
    
 4. **Download necessary NLTK data:**
-     import nltk
+
+      import nltk
    
     nltk.download('punkt')
    

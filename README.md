@@ -31,5 +31,10 @@ The dataset used in this project was sourced from Kaggle. It contains labeled ne
 Dataset Name: Fake News Detection Datasets 
 
 Dataset Link: https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets?resource=download
+##Workflow
+1. *Data Preprocessing:*
+   Tokenization and lemmatization using NLTK.
+   
+   Word embeddings generated with Word2Vec.
 
    

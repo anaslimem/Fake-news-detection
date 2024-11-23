@@ -11,14 +11,17 @@ This project is a machine learning-based system designed to detect and classify 
 
 1. **Clone the repository:**
    git clone https://github.com/anaslimem/Fake-news-detection.git
+   
    cd Fake-news-detection
    
-2. **Install required libraries:**
+3. **Install required libraries:**
    pip install numpy pandas sklearn nltk gensim matplotlib gradio
    
-3. **Download necessary NLTK data:**
+4. **Download necessary NLTK data:**
      import nltk
+   
     nltk.download('punkt')
+   
     nltk.download('wordnet')
 ## Dataset
 

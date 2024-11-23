@@ -31,10 +31,59 @@ The dataset used in this project was sourced from Kaggle. It contains labeled ne
 Dataset Name: Fake News Detection Datasets 
 
 Dataset Link: https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets?resource=download
-##Workflow
+
+## Workflow
 1. *Data Preprocessing:*
+   
    Tokenization and lemmatization using NLTK.
    
    Word embeddings generated with Word2Vec.
+
+2. *Model Training and Testing:*
+
+   Data split into training and testing sets using train_test_split.
+
+   Support Vector Classifier (SVC) for classification.
+
+   Evaluation metrics include accuracy, precision, recall, F1-score, and confusion matrix.
+
+3. *Interactive Interface:*
+
+   A Gradio-based UI for users to input news articles and test the model's predictions in real time.
+
+## Example Evaluation Metrics:
+
+Accuracy: 98%
+
+Precision: 97%
+
+Recall: 96%
+
+F1-score: 96%
+
+## Libraries:
+
+numpy
+
+pandas
+
+scikit-learn
+
+nltk
+
+gensim
+
+matplotlib
+
+gradio
+
+## Contribution
+
+Feel free to fork this repository and improve the project! Contributions are welcome.
+
+## Acknowledgments
+
+Special thanks to the creators of the libraries and tools used in this project and to Kaggle for providing the dataset.
+
 
    

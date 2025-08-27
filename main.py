@@ -83,7 +83,7 @@ print(precision_score(y_test,y_pred))
 print(recall_score(y_test,y_pred))
 print(f1_score(y_test,y_pred))
 plt.show()
-with open('word2vec_model.txt', 'r') as f:
+with open('word2vec_model.txt', 'r', encoding="utf8") as f:
     lines = f.readlines()
 def predict_news(news_text):
     tokens = nltk.word_tokenize(news_text)

@@ -1,89 +1,93 @@
-# Fake News Detection System
+# Fake News Detection System 📰❌
 
-This project is a machine learning-based system designed to detect and classify fake news articles. By leveraging natural language processing (NLP) techniques and advanced machine learning models, the system provides a reliable method for identifying misinformation.
+A machine learning-based system to **detect and classify fake news articles**. Leveraging **natural language processing (NLP)** and advanced ML techniques, this system provides a reliable method to identify misinformation with high accuracy.
+
+---
 
 ## Features
-- High accuracy in detecting fake news using Support Vector Machines (SVM).
-- Text preprocessing and word embeddings with Word2Vec for enhanced feature extraction.
-- Intuitive interface built with Gradio for user interaction.
+
+- ✅ **High-accuracy detection:** Support Vector Machine (SVM) model achieves excellent performance on fake news classification.  
+- 📝 **Advanced text preprocessing:** Tokenization, lemmatization, and word embeddings using Word2Vec for robust feature extraction.  
+- 💻 **Interactive interface:** Gradio-based UI for real-time article testing and user-friendly interaction.
+
+---
 
 ## Installation
 
 1. **Clone the repository:**
-   git clone https://github.com/anaslimem/Fake-news-detection.git
-   
-   cd Fake-news-detection
-   
-3. **Install required libraries:**
-   pip install numpy pandas sklearn nltk gensim matplotlib gradio
-   
-4. **Download necessary NLTK data:**
 
-      import nltk
-   
-    nltk.download('punkt')
-   
-    nltk.download('wordnet')
-## Dataset
+```bash
+git clone https://github.com/anaslimem/Fake-news-detection.git
+cd Fake-news-detection
+```
+2. **Install required libraries:**
 
-The dataset used in this project was sourced from Kaggle. It contains labeled news articles categorized as "Fake" or "Real."
+```bash
+pip install numpy pandas scikit-learn nltk gensim matplotlib gradio
+```
 
-Dataset Name: Fake News Detection Datasets 
+3. **Download NLTK data:**
 
-Dataset Link: https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets?resource=download
+```bash
+import nltk
 
+nltk.download('punkt')
+nltk.download('wordnet')
+```
+
+---
+Dataset
+
+Source: Kaggle
+
+Name: Fake News Detection Datasets
+
+Link: Download Dataset
+
+The dataset contains labeled news articles categorized as "Fake" or "Real".
+
+---
 ## Workflow
-1. *Data Preprocessing:*
-   
-   Tokenization and lemmatization using NLTK.
-   
-   Word embeddings generated with Word2Vec.
 
-2. *Model Training and Testing:*
+Data Preprocessing:
 
-   Data split into training and testing sets using train_test_split.
+   - Tokenization and lemmatization with NLTK.
 
-   Support Vector Classifier (SVC) for classification.
+   - Feature extraction using Word2Vec embeddings.
 
-   Evaluation metrics include accuracy, precision, recall, F1-score, and confusion matrix.
+   - Model Training & Evaluation:
 
-3. *Interactive Interface:*
+   - Split data into training and testing sets.
 
-   A Gradio-based UI for users to input news articles and test the model's predictions in real time.
+   - Train Support Vector Classifier (SVC).
 
-## Example Evaluation Metrics:
+   - Evaluate using accuracy, precision, recall, F1-score, and confusion matrix.
 
-Accuracy: 98%
+Interactive Interface:
 
-Precision: 97%
+   - Gradio-based UI for real-time news article classification.
 
-Recall: 96%
+---
 
-F1-score: 96%
+## Example Metrics
 
-## Libraries:
+| Metric    | Score |
+| --------- | ----- |
+| Accuracy  | 98%   |
+| Precision | 97%   |
+| Recall    | 96%   |
+| F1-score  | 96%   |
 
-numpy
+---
 
-pandas
+## Libraries Used
 
-scikit-learn
-
-nltk
-
-gensim
-
-matplotlib
-
-gradio
-
-## Contribution
-
-Feel free to fork this repository and improve the project! Contributions are welcome.
-
-## Acknowledgments
-
-Special thanks to the creators of the libraries and tools used in this project and to Kaggle for providing the dataset.
+- numpy
+- pandas
+- scikit-learn
+- nltk
+- gensim
+- matplotlib
+- gradio
 
 
-   

@@ -42,8 +42,6 @@ Source: Kaggle
 
 Name: Fake News Detection Datasets
 
-Link: Download Dataset
-
 The dataset contains labeled news articles categorized as "Fake" or "Real".
 
 ---

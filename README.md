@@ -1,4 +1,4 @@
-# Fake News Detection System 📰❌
+# Fake News Detection System
 
 A machine learning-based system to **detect and classify fake news articles**. Leveraging **natural language processing (NLP)** and advanced ML techniques, this system provides a reliable method to identify misinformation with high accuracy.
 
@@ -6,9 +6,9 @@ A machine learning-based system to **detect and classify fake news articles**. L
 
 ## Features
 
-- ✅ **High-accuracy detection:** Support Vector Machine (SVM) model achieves excellent performance on fake news classification.  
-- 📝 **Advanced text preprocessing:** Tokenization, lemmatization, and word embeddings using Word2Vec for robust feature extraction.  
-- 💻 **Interactive interface:** Gradio-based UI for real-time article testing and user-friendly interaction.
+- **High-accuracy detection:** Support Vector Machine (SVM) model achieves excellent performance on fake news classification.  
+- **Advanced text preprocessing:** Tokenization, lemmatization, and word embeddings using Word2Vec for robust feature extraction.  
+- **Interactive interface:** Gradio-based UI for real-time article testing and user-friendly interaction.
 
 ---
 
@@ -20,13 +20,14 @@ A machine learning-based system to **detect and classify fake news articles**. L
 git clone https://github.com/anaslimem/Fake-news-detection.git
 cd Fake-news-detection
 ```
-2. **Install required libraries:**
+
+2.**Install required libraries:**
 
 ```bash
 pip install numpy pandas scikit-learn nltk gensim matplotlib gradio
 ```
 
-3. **Download NLTK data:**
+3.**Download NLTK data:**
 
 ```bash
 import nltk
@@ -45,25 +46,26 @@ Name: Fake News Detection Datasets
 The dataset contains labeled news articles categorized as "Fake" or "Real".
 
 ---
+
 ## Workflow
 
 Data Preprocessing:
 
-   - Tokenization and lemmatization with NLTK.
+   -Tokenization and lemmatization with NLTK.
 
-   - Feature extraction using Word2Vec embeddings.
+   -Feature extraction using Word2Vec embeddings.
 
-   - Model Training & Evaluation:
+   -Model Training & Evaluation:
 
-   - Split data into training and testing sets.
+   -Split data into training and testing sets.
 
-   - Train Support Vector Classifier (SVC).
+   -Train Support Vector Classifier (SVC).
 
-   - Evaluate using accuracy, precision, recall, F1-score, and confusion matrix.
+   -Evaluate using accuracy, precision, recall, F1-score, and confusion matrix.
 
 Interactive Interface:
 
-   - Gradio-based UI for real-time news article classification.
+   -Gradio-based UI for real-time news article classification.
 
 ---
 
@@ -87,5 +89,3 @@ Interactive Interface:
 - gensim
 - matplotlib
 - gradio
-
-
